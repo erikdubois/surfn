@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" version="1.1" viewBox="0 0 32 32">
- <g transform="translate(-384.57143,-515.798)">
-  <path style="fill:#f2f2f2;fill-opacity:1;" d="m 6,4 0,24 9,0 0,-1 -8,0 0,-22 18,0 0,12 1,0 0,-13 z" transform="translate(384.57143,515.798)"/>
-  <path style="fill:#f2f2f2;fill-opacity:1;" d="M 20 17 L 20 22 L 15 22 L 15 23 L 20 23 L 20 28 L 21 28 L 21 23 L 26 23 L 26 22 L 21 22 L 21 17 L 20 17 z" transform="translate(384.57143,515.798)"/>
- </g>
-</svg>

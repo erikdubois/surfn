@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" version="1.1">
- <g transform="translate(-551.28571,-607.64789)">
-  <path style="opacity:1;fill:#f2f2f2;fill-opacity:1;" d="M 9.5,6.5 C 6.453,6.5 4,8.953 4,12 c 0,3.047 2.453,5.5 5.5,5.5 l 5,0 C 17.547,17.5 20,15.047 20,12 20,8.953 17.547,6.5 14.5,6.5 l -5,0 z m 0,1 5,0 c 2.493,0 4.5,2.007 4.5,4.5 0,2.493 -2.007,4.5 -4.5,4.5 l -5,0 C 7.007,16.5 5,14.493 5,12 5,9.507 7.007,7.5 9.5,7.5 Z" transform="translate(550.28572,606.6479)"/>
- </g>
-</svg>

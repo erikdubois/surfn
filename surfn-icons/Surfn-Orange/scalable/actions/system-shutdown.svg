@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.1" viewBox="0 0 48 48">
- <g fill-rule="evenodd" fill-opacity=".951" transform="matrix(1.1119 0 0 1.1119 -2.6847 -2.6847)" fill="#ffffff">
-  <path fill-opacity=".951" fill="#ffffff" d="m40 24c0-6.719-4.133-12.441-10-14.812v4.4375c3.5859 2.0742 6 5.9336 6 10.375 0 6.6289-5.3711 12-12 12s-12-5.3711-12-12c0-4.4414 2.4141-8.3008 6-10.375v-4.4385c-5.867 2.3715-10 8.0935-10 14.812 0 8.8359 7.1641 16 16 16s16-7.1641 16-16z"/>
- </g>
- <path fill-opacity=".951" fill="#ffffff" d="m26 24h-4v-16h4z"/>
-</svg>

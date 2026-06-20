@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.1">
- <g transform="translate(-326,-532.3622)">
-  <g transform="translate(-94.71429,7.57146)">
-   <path transform="translate(421.71429,525.79074)" d="m 11,3 -8,4.6230469 0,0.375 L 3,9 l 1,0 0,1 0,8 -1,0 0,1 16,0 0,-1 -1,0 0,-8 0,-1 1,0 0,-1.0019531 0,-0.375 L 11,3 Z m 0,1.15625 6.650391,3.8417969 -13.3007816,0 L 11,4.15625 Z M 5,9 7,9 7,10 7,18 5,18 5,10 5,9 Z m 3,0 6,0 0,1 0,8 -1,0 0,-4 -4,0 0,4 -1,0 0,-8 0,-1 z m 7,0 2,0 0,1 0,8 -2,0 0,-8 0,-1 z" style="opacity:1;fill:#f2f2f2;fill-opacity:1;"/>
-  </g>
- </g>
-</svg>

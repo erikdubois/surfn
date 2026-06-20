@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="image-rendering:optimizeSpeed" x="0" y="0" width="512" height="512" viewBox="0 0 512 512">
- <rect style="opacity:1;fill:#6d7a7f;fill-opacity:1;image-rendering:optimizeSpeed" width="369.877" height="448.798" x="71.06" y="32.2" ry="21.112" rx="21.112"/>
- <rect style="opacity:1;fill:#15495d;fill-opacity:1;image-rendering:optimizeSpeed" width="167.121" height="23.069" x="92.83" y="440.52" ry="5.805" rx="5.805"/>
- <rect style="opacity:1;fill:#f5f5f5;fill-opacity:1;image-rendering:optimizeSpeed" width="369.877" height="393.365" x="71.07" y="31" ry="18.504" rx="21.112"/>
- <path d="m 351.47401,323.15074 q 39.53936,-39.53937 39.53936,-95.46822 c 0,-37.29422 -13.17147,-69.10033 -39.53936,-95.46823 C 325.10611,105.84641 293.3,92.674927 256.00578,92.674927 c -37.29423,0 -69.10034,13.171483 -95.46823,39.539363 -26.36789,26.3679 -39.53937,58.17401 -39.53937,95.46823 0,37.29422 13.17148,69.10034 39.53937,95.46822 26.36789,26.36789 58.174,39.53936 95.46823,39.53936 37.29422,0 69.10033,-13.17147 95.46823,-39.53936 z" style="fill:#ebebeb;fill-opacity:1;stroke-width:0.49891937;image-rendering:optimizeSpeed"/>
- <circle style="opacity:1;fill:#d1d2d3;fill-opacity:1;image-rendering:optimizeSpeed" cx="358" cy="452.026" r="10.345"/>
- <circle style="opacity:1;fill:#d1d2d3;fill-opacity:1;image-rendering:optimizeSpeed" cx="389.947" cy="452.02" r="10.345"/>
-</svg>

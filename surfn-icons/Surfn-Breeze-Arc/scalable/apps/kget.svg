@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
- <rect style="fill:#0055d4;fill-opacity:1;fill-rule:evenodd;" width="455.593" height="449.085" x="28.54" y="32.03" ry="50.005"/>
- <path style="fill:#a5a5a5;fill-opacity:1;stroke:#ffffff;stroke-width:18.13425827;" d="m -84.610168,273.35593 a 214.77966,190.91525 0 1 1 -429.559322,0 214.77966,190.91525 0 1 1 429.559322,0 z" transform="matrix(0.88383839,0,0,0.99431821,521.18849,-14.88752)"/>
- <polygon points="2 22 16 22 16 30 30 16 16 2 16 10 2 10" transform="matrix(0,7.1987686,-7.1987686,0,370.44121,222.05068)" style="fill:#ffffff"/>
- <polygon points="2 22 16 22 16 30 30 16 16 2 16 10 2 10" transform="matrix(0,-7.1987686,7.1987686,0,140.07033,291.35941)" style="fill:#ffffff"/>
- <rect style="fill:#0055d4;fill-opacity:1;fill-rule:evenodd;" width="253.831" height="101.966" x="128.08" y="188.99" ry="30.405"/>
-</svg>

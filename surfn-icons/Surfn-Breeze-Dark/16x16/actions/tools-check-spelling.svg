@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1">
- <g transform="translate(-421.71429,-531.79074)">
-  <g transform="matrix(0.75000028,0,0,0.74999939,7.9998528,75.805203)">
-   <rect style="fill:#27ae60;fill-opacity:1;fill-rule:evenodd;" width="16" height="1.333" x="554.29" y="625.32"/>
-   <path style="font-size:14.99414539px;line-height:125%;font-family:Oxygen;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;" d="m 561.46279,610.64788 -5.84375,13.33334 1.8099,0 1.58593,-3.63636 6.57032,0 1.53645,3.63636 1.83073,0 -5.66926,-13.33334 -1.82032,0 z m 0.90625,1.60985 c 0.15088,0.45585 0.94863,2.52359 2.39583,6.20028 l 0.29948,0.67472 -5.52343,0 2.82812,-6.875 z"/>
-  </g>
- </g>
-</svg>

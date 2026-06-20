@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="16pt" height="16pt" version="1.1">
- <rect style="fill:#3498db;fill-opacity:1;" width="15.567" height="15.567" x="3.26" y="2.51"/>
- <rect y="3.68" x="4.42" height="13.232" width="13.232" style="fill:#ecf0f1;fill-opacity:1;"/>
- <rect style="fill:#3498db;fill-opacity:1;" width="7.784" height="1.557" x="7.15" y="9.51"/>
- <rect y="6.4" x="7.15" height="1.557" width="7.784" style="fill:#3498db;fill-opacity:1;"/>
- <rect style="fill:#3498db;fill-opacity:1;" width="7.784" height="1.557" x="7.15" y="12.63"/>
-</svg>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" version="1.1" viewBox="0 0 16 16">
- <g transform="translate(0,-1036.3622)">
-  <g style="fill:#f2f2f2;fill-opacity:1">
-   <rect y="1039.36" x="-17" height="11" width="0" style="fill:#f2f2f2;fill-opacity:1;"/>
-   <path transform="translate(0,1036.3622)" d="M 3.7148438,3 3,3.6953125 5.6386719,6.4921875 3.0175781,9.3046875 3.7324219,10 6.6757812,6.8378906 7,6.4921875 6.6757812,6.1445312 3.7148438,3 Z M 7,12 l 0,1 6,0 0,-1 -6,0 z" style="fill:#f2f2f2;fill-opacity:1;"/>
-  </g>
- </g>
-</svg>

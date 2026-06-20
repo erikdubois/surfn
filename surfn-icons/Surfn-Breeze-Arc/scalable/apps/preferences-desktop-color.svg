@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="512" height="512">
- <rect style="fill:#4495cf;fill-opacity:1;fill-rule:evenodd;" width="197.99" height="367.696" x="263.1" y="-508.77" ry="15.5" transform="matrix(0,1,-1,0,0,0)"/>
- <rect style="fill:#fcd951;fill-opacity:1;fill-rule:evenodd;" width="197.99" height="367.696" x="286.53" y="-341.48" ry="15.5" transform="matrix(0.34077615,0.94014447,-0.94014447,0.34077615,0,0)"/>
- <rect style="fill:#e7484a;fill-opacity:1;fill-rule:evenodd;" width="197.99" height="367.696" x="191.73" y="-53.25" ry="15.5" transform="matrix(0.86743456,0.49755129,-0.49755129,0.86743456,0,0)"/>
- <rect style="fill:#8cc43e;fill-opacity:1;fill-rule:evenodd;" width="197.99" height="367.696" x="4.49" y="93.39" ry="15.5"/>
- <path style="fill:#ffffff;fill-opacity:1;" d="m -390.32295,259.56287 a 27.577164,27.577164 0 1 1 -55.15433,0 27.577164,27.577164 0 1 1 55.15433,0 z" transform="matrix(0.76923077,0,0,0.76923077,480.09617,220.41237)"/>
-</svg>

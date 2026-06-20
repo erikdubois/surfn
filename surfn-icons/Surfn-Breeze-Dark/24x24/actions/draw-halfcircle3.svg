@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.1">
- <g transform="translate(-326,-532.3622)">
-  <g transform="matrix(0,1,-1,0,956.6479,-17.92352)">
-   <path transform="translate(550.28572,606.6479)" d="m 12,4 c -4.432,0 -8,3.568 -8,8 0,4.432 3.568,8 8,8 l 1,0 0,-16 -1,0 z m 0,1 0,14 C 8.122,19 5,15.878 5,12 5,8.122 8.122,5 12,5 Z" style="opacity:1;fill:#f2f2f2;fill-opacity:1;"/>
-  </g>
- </g>
-</svg>

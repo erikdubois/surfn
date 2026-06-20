@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" version="1.1">
- <g transform="translate(-326,-532.3622)">
-  <g transform="translate(-224.28571,-74.28568)">
-   <path transform="translate(551.28571,607.64788)" d="m 3,3 0,4 0,11 0,1 10,0 6,0 0,-1 0,-5 0,-6 0,-4 -16,0 z m 1,4 14,0 0,6 0,5 -5,0 -9,0 0,-11 z" style="opacity:1;fill:#f2f2f2;fill-opacity:1;"/>
-   <path transform="translate(551.28571,607.64788)" d="m 9,10 0,6 5,-3 -5,-3 z" style="opacity:1;fill:#f2f2f2;fill-opacity:1;"/>
-  </g>
- </g>
-</svg>
