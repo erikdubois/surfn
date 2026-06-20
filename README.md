@@ -1,271 +1,77 @@
-# Surfn icon theme
-
-# Request Icons & Issues with current icons
-
-When reporting missing or wrong looking icons make sure to follow these steps so I can resolve it faster and efficiently:
-
-## Screenfetch
-
-Install screenfetch to give me information of your distro and Desktop Environment.
-
-	sudo apt install screenfetch
-	sudo pacman -S screenfetch
-	or any equivalent
-
-Copy/paste the code you will receive or provide manually on what distro and desktop environment you are on and what version.
-
-## Icon name 
-
-Add the relevant launcher information, applications use files with the extension .desktop as launchers like Firefox, Mint menu, etc. and these launchers are stored in 
-
-	/usr/share/applications (there might be a /kde or /kde4 folder for KDE apps)
-
-User-installed binaries and Google Chrome apps install their launchers here: 
-
-	/home/$USER/.local/share/applications
-
-Simply open these .desktop files with any text editor or sublime-text and copy and paste the line that says 
-
-	Icon=...
-
-to your issue or request.
-
-## General info
-
-Add a description of the software and a link where to download it and/or installation instructions if necessary.
-
-## Original icon
-
-Sometimes the application will already have an icon. Provide the link where the original icon can be found.
-I prefer them to be in SVG. A png is a last resort.
-
-## Screenshots
-
-Add screenshots of the missing icon and the instances where it's displayed like: menus, taskbars, panels, notifications, etc.
-
-REMARK : Some applications use absolute paths in their launchers, as such even when we add the icon the system will not load it, you can use Hardcoded Icon Fixer to resolve this problem as explained above.
-
-This icon set is based on four different icon themes I like.
-
-- Ultra Flat icons
-
-- Super Flat remix icons
-
-- Yltra Flat icons
-
-- Numix (Circle) icons
-
-On top of that many icons have been changed and added to my personal preference.
-
-Individual folder colours have been added :
-
-- light blue
-
-- arch blue
-
-- orange
-
-- grey-orange
-
-- arc folders from horst3180 on github
-
-- breeze dark elements
-
-# Rebranding of the icon theme.
-
-Take every first letter of Super Ultra Flat Numix Remix (old name) and change positions
-
- 	# SUFNR which resulted in Surfn (pronounced surfing).
-
-# How to install
-
-Download button at top right or via git (or just download the zip and uncompress)
-
-	sudo apt-get install git
-	git clone https://github.com/erikdubois/Super-Ultra-Flat-Numix-Remix
-
-Copy/paste the folders inside the hidden folder .icons.
-
-Select it with your favourite tool.
-
-Done.
-
-# Why this icon set
-
-I wanted to try out the hierarchical structure of the folders that Numix uses and see what the advantages are.
-
-A structure change from actions/scalable to 16x16/actions. A lot of work. Now let us discover the advantages.
-
-I started to work on the basis of an another icon theme I made i.e. Yltra Flat icon set also on this github.
-
-# Surfn
-
-![Screenshots](http://i.imgur.com/LtFrKF5.png)
-
-# Surfn Arc
-
-![Screenshots](http://i.imgur.com/PktMjPL.jpg)
-
-# Surfn Arch blue
-
-![Screenshots](http://i.imgur.com/nnNsHrt.png)
-
-# Surfn Breeze dark
-
-![Screenshots](http://i.imgur.com/t5Z6zcP.jpg)
-
-# Surfn Evopop
-
-![Screenshots](http://i.imgur.com/S2qHzgw.jpg)
-
-# Surfn Luv
-
-![Screenshots](http://i.imgur.com/eFca1f3.jpg)
-
-# Surfn Luv Red
-
-![Screenshots](http://i.imgur.com/lsJe7vl.jpg)
-
-# Surfn Majestic
-
-![Screenshots](http://i.imgur.com/4kmbNCW.png)
-
-# Surfn Mint-X-Grey
-
-![Screenshots](http://i.imgur.com/wPlf8ws.jpg)
-
-# Surfn Numix
-
-![Screenshots](http://i.imgur.com/iLoADRp.jpg)
-
-# Surfn Numix Misty
-
-![Screenshots](http://i.imgur.com/l6mNr7w.jpg)
-
-# Surfn Numix Polo
-
-![Screenshots](http://i.imgur.com/nM7Bs9S.jpg)
-
-# Surfn Orange
-
-![Screenshots](http://i.imgur.com/lVzZspa.png)
-
-# Surfn Papirus Blue
-
-![Screenshots](http://i.imgur.com/AXw4Ahn.jpg)
-
-# Surfn Papirus Grey
-
-![Screenshots](http://i.imgur.com/NGKxyXj.jpg)
-
-# Surfn Vertexed
-
-![Screenshots](http://i.imgur.com/bHdxO0v.jpg)
-
-# Screenshots on other systems
-
-You can provide screenshots via google+, +ErikDubois
-
-# Antergos i3
-
-![Screenshots](http://i.imgur.com/ybXlXT1.jpg)
-
-# Antergos XFCE
-
-![Screenshots](http://i.imgur.com/HOsvX4o.jpg)
-
-# Antergos Gnome
-
-![Screenshots](http://i.imgur.com/76kzGHr.png)
-
-![Screenshots](http://i.imgur.com/rMrziCs.png)
-
-# Archlinux i3
-
-![Screenshots](http://i.imgur.com/L1pYJUm.jpg)
-
-# Raspberry Pi Ubuntu Mate
-
-![Screenshots](http://i.imgur.com/xqnH6vY.png)
-
-# Ubuntu 16.04
-
-![Screenshots](http://i.imgur.com/1kfWdHZ.png)
-
-![Screenshots](http://i.imgur.com/gkOzhyv.png)
-
-# Ubuntu Mate 16.04
-
-![Screenshots](http://i.imgur.com/CoPrM81.png)
-
-# Xubuntu 16.04
-
-![Screenshots](http://i.imgur.com/SdPlm5R.png)
-
-# Changelog
-
-The changelog file is to be found in the folder Super-Ultra-Flat-Numix-Remix.
-I try to remember to fill it in but I know I do not succeed fully in that goal.
-
-# How is it managed
-
-To be able to manage this icon set <b>Surfn</b> is the main icon set. All the others inherit icons from <b>Surfn</b>.
-
-Other icon sets will have different folder colours but all other icons come from the main one.
-
-If you fix an app icon, it will be fixed for all icon sets.
-
-In this manner we are saving also many megabytes and double work.
-
-# Reporting missing icons
-
-When reporting missing or wrong looking icons make sure to follow these steps so I can resolve it faster:
-
-Add screenshots of the missing icon and the instances where it's displayed like: menus, taskbars, panels, notifications, etc.
-
-Add the relevant launcher information, software uses files with the extension .desktop as launchers for menus like Firefox, Mint menu, etc. and these launchers are stored in /usr/share/applications (there might be a /kde or /kde4 folder for KDE apps) for software installed through a package or the package manager.
-
-User-installed binaries and Google Chrome apps install their launchers here: /home/$USER/.local/share/applications/.
-
-Simply open these .desktop files with any text editor or sublime-text for the better coder; copy and paste the line that says Icon= to your issue.
-
-Add a description of the software.
-
-Some software uses absolute paths in their launchers, as such even when we add the icon the system will not load it, you may use Hardcoded Icon Fixer to resolve this problem as explained above.
-
-# F  A  Q
---------------------
-
-#What can you do if the script does not execute?
-
-Since I sometimes forget to make the script executable, I include here what you can do to solve that.
-
-A script can only run when it is marked as an executable.
-
-	ls -al 
-
-Above code will reveal if a script has an "x". X meaning executable.
-Google "chmod" and "execute" and you will find more info.
-
-For now if this happens, you should apply this code in the terminal and add the file name.
-
-	chmod +x typeyourfilename
-
-Then you can execute it by typing
-
-	./typeyourfilename
-
-Or you can follow these steps
-
-![Screenshots](http://i.imgur.com/vXsOaFL.gif)
-
--------------------------------------------------
-
-# But that is the fun in Linux.
-
-You can do whatever <b>Y O U</b> want.
-
-Share the knowledge.
-
-I share my knowledge at http://erikdubois.be
---------------------------------------------------
+<h1 align="center">
+  <img src="kiro.jpg" alt="Kiro" width="220" />
+  <br />
+  Surfn
+</h1>
+
+![Last-Commit](https://img.shields.io/github/last-commit/erikdubois/surfn?style=for-the-badge)
+
+<img alt="GitHub followers" src="https://img.shields.io/github/followers/erikdubois?style=flat">&nbsp;&nbsp;<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/erikdubois/surfn">&nbsp;&nbsp;<img alt="GitHub forks" src="https://img.shields.io/github/forks/erikdubois/surfn">
+
+<img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCJdmdUp5BrsWsYVQUylCMLg">&nbsp;&nbsp;<img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCJdmdUp5BrsWsYVQUylCMLg">
+
+---
+
+**Surfn** is a colourful flat icon theme. It started as a blend of four icon sets — Ultra Flat,
+Super Flat Remix, Yltra Flat and Numix (Circle) — with many icons reworked to personal taste.
+The name comes from rearranging the letters of its original name, **S**uper **U**ltra **F**lat
+**N**umix **R**emix → *SUFNR* → **Surfn** (pronounced *surfing*).
+
+This is the **base** theme. Every other Surfn theme ships only its recoloured folders and inherits
+all remaining icons from here, so the base `surfn-icons-git` is required by all of them.
+
+## Installation (Arch / Kiro — nemesis_repo)
+
+```
+sudo pacman -S surfn-icons-git
+```
+
+## Manual
+
+Copy `usr/share/icons/Surfn` into `~/.icons` (or `~/.local/share/icons` on Plasma),
+then select **Surfn** in your appearance settings.
+
+## How it is managed
+
+`Surfn` is the main icon set; all variants inherit their icons from it. A variant only overrides
+folder colours (and the odd accent), so fixing an app icon here fixes it across the whole family —
+and it keeps every variant small instead of duplicating thousands of icons.
+
+## Variants
+
+Each variant is its own package and pulls in `surfn-icons-git` automatically:
+
+| Variant | Package |
+|---------|---------|
+| [Surfn Arc](https://github.com/erikdubois/surfn-arc) | `surfn-arc-icons-git` |
+| [Surfn Arc Breeze](https://github.com/erikdubois/surfn-arc-breeze) | `surfn-arc-breeze-icons-git` |
+| [Surfn Arch Blue](https://github.com/erikdubois/surfn-arch-blue) | `surfn-arch-blue-icons-git` |
+| [Surfn Arched](https://github.com/erikdubois/surfn-arched) | `surfn-arched-icons-git` |
+| [Surfn Breeze Arc](https://github.com/erikdubois/surfn-breeze-arc) | `surfn-breeze-arc-icons-git` |
+| [Surfn Breeze Dark](https://github.com/erikdubois/surfn-breeze-dark) | `surfn-breeze-dark-icons-git` |
+| [Surfn Dracul](https://github.com/erikdubois/surfn-dracul) | `surfn-dracul-icons-git` |
+| [Surfn Luv](https://github.com/erikdubois/surfn-luv) | `surfn-luv-icons-git` |
+| [Surfn Luv Red](https://github.com/erikdubois/surfn-luv-red) | `surfn-luv-red-icons-git` |
+| [Surfn Majestic](https://github.com/erikdubois/surfn-majestic) | `surfn-majestic-icons-git` |
+| [Surfn Mint-X-Grey](https://github.com/erikdubois/surfn-mint-x-grey) | `surfn-mint-x-grey-icons-git` |
+| [Surfn Numix](https://github.com/erikdubois/surfn-numix) | `surfn-numix-icons-git` |
+| [Surfn Numix Misty](https://github.com/erikdubois/surfn-numix-misty) | `surfn-numix-misty-icons-git` |
+| [Surfn Numix Polo](https://github.com/erikdubois/surfn-numix-polo) | `surfn-numix-polo-icons-git` |
+| [Surfn Numixs](https://github.com/erikdubois/surfn-numixs) | `surfn-numixs-icons-git` |
+| [Surfn Orange](https://github.com/erikdubois/surfn-orange) | `surfn-orange-icons-git` |
+| [Surfn Papirus Blue](https://github.com/erikdubois/surfn-papirus-blue) | `surfn-papirus-blue-icons-git` |
+| [Surfn Papirus Casablanca](https://github.com/erikdubois/surfn-papirus-casablanca) | `surfn-papirus-casablanca-icons-git` |
+| [Surfn Papirus Grey](https://github.com/erikdubois/surfn-papirus-grey) | `surfn-papirus-grey-icons-git` |
+| [Surfn Plasma Dark](https://github.com/erikdubois/surfn-plasma-dark) | `surfn-plasma-dark-icons-git` |
+| [Surfn Plasma Dark Breeze](https://github.com/erikdubois/surfn-plasma-dark-breeze) | `surfn-plasma-dark-breeze-icons-git` |
+| [Surfn Plasma Dark Qogir](https://github.com/erikdubois/surfn-plasma-dark-qogir) | `surfn-plasma-dark-qogir-icons-git` |
+| [Surfn Plasma Flow](https://github.com/erikdubois/surfn-plasma-flow) | `surfn-plasma-flow-git` |
+| [Surfn Plasma Light](https://github.com/erikdubois/surfn-plasma-light) | `surfn-plasma-light-icons-git` |
+| [Surfn Qogir](https://github.com/erikdubois/surfn-qogir) | `surfn-qogir-icons-git` |
+| [Surfn Tela](https://github.com/erikdubois/surfn-tela) | `surfn-tela-icons-git` |
+| [Surfn Vertexed](https://github.com/erikdubois/surfn-vertexed) | `surfn-vertexed-icons-git` |
+| [Surfn Vimix Black](https://github.com/erikdubois/surfn-vimix-black) | `surfn-vimix-black-icons-git` |
+
+## License
+
+[LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International.
