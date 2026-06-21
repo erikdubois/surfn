@@ -1,1 +1,13 @@
+# Generated icon cache (the install hook rebuilds it on the user's machine)
 icon-theme.cache
+usr/share/icons/*/icon-theme.cache
+
+# Build scaffolding — read-only source snapshot used by rearrange.sh (local only)
+_src/
+
+# Generator scripts — kept local, not published
+rearrange.sh
+check-icons.sh
+
+.claude/
+.codex/

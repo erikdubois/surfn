@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text { color:#4d4d4d; }</style>
+ <g class="ColorScheme-Text" fill="currentColor">
+  <rect x="2" y="3" width="12" height="2" rx="1"/>
+  <rect x="2" y="7" width="12" height="2" rx="1"/>
+  <rect x="2" y="11" width="12" height="2" rx="1"/>
+ </g>
+</svg>
