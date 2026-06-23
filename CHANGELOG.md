@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026.06.23 — White `?` for the Kickoff Help category
+
+### What Changed
+
+The **Help** category in the Plasma Kickoff menu showed a thin, non-white `?` that
+clashed with every other category icon. Surfn shipped every sibling
+`applications-*` category icon except `applications-help`, so Plasma fell through
+the `Inherits=` chain to a foreign bare `?`. Added `applications-help` as a bare
+**white** `?` so the Help category renders cleanly and never falls back.
+
+### Technical Details
+
+- New icon based on the existing Surfn bare-`?` glyph path
+  (`status/scalable/dialog-question-symbolic.svg`), recoloured pure white
+  (`#ffffff`) for the scalable variant and the symbolic placeholder grey
+  (`#4d4d4d`) for the symbolic variant, matching the sibling symbolic convention.
+- Dropped directly into the published tree (and the local `_src` source) rather
+  than regenerating, to avoid churn in the hand-authored sibling icons.
+- `check-icons.sh` clean (gtk-update-icon-cache passes).
+
+### Files Modified
+
+- `usr/share/icons/Surfn/categories/scalable/applications-help.svg` (new)
+- `usr/share/icons/Surfn/categories/symbolic/applications-help.svg` (new)
+
 ## 2026.06.21 — Surfn rebuilt from the Surfing work (context-first layout)
 
 ### What Changed
