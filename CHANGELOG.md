@@ -4,26 +4,33 @@
 
 ### What Changed
 
-The **Help** category in the Plasma Kickoff menu showed a thin, non-white `?` that
-clashed with every other category icon. Surfn shipped every sibling
-`applications-*` category icon except `applications-help`, so Plasma fell through
-the `Inherits=` chain to a foreign bare `?`. Added `applications-help` as a bare
-**white** `?` so the Help category renders cleanly and never falls back.
+The **Help** category in the Plasma Kickoff menu showed a gray `?` that clashed
+with the colorful sibling category icons. Root cause (verified live): the Kickoff
+Help group is defined in `plasma-applications.menu` via `kf5-help.directory`, whose
+`Icon=help-about-symbolic`. Surfn's own `actions/symbolic/help-about-symbolic.svg`
+is a bare `?` hard-coded to gray (`#555555`), rendered literally by Kickoff — so the
+glyph showed gray. Recoloured it to pure **white** (`#ffffff`).
+
+Also added (completeness, separate from the visible bug): `applications-help`, the
+one `applications-*` category icon base Surfn was missing relative to its siblings —
+a bare white `?` for any launcher that requests that name.
 
 ### Technical Details
 
-- New icon based on the existing Surfn bare-`?` glyph path
-  (`status/scalable/dialog-question-symbolic.svg`), recoloured pure white
-  (`#ffffff`) for the scalable variant and the symbolic placeholder grey
-  (`#4d4d4d`) for the symbolic variant, matching the sibling symbolic convention.
-- Dropped directly into the published tree (and the local `_src` source) rather
-  than regenerating, to avoid churn in the hand-authored sibling icons.
+- `help-about-symbolic.svg`: changed the glyph `fill` from `#555555` → `#ffffff`
+  (path unchanged). This is the actual fix for the menu — confirmed via
+  `kiconfinder6` that the Help category resolves to this file through the active
+  theme's `Inherits=Surfn` chain.
+- `applications-help.svg`: new bare white `?` (scalable `#ffffff`, symbolic
+  `#4d4d4d`), based on the existing Surfn bare-`?` glyph path.
+- Edited the published tree and the local `_src` source directly (no regen).
 - `check-icons.sh` clean (gtk-update-icon-cache passes).
 
 ### Files Modified
 
-- `usr/share/icons/Surfn/categories/scalable/applications-help.svg` (new)
-- `usr/share/icons/Surfn/categories/symbolic/applications-help.svg` (new)
+- `usr/share/icons/Surfn/actions/symbolic/help-about-symbolic.svg` (gray → white) — the fix
+- `usr/share/icons/Surfn/categories/scalable/applications-help.svg` (new, completeness)
+- `usr/share/icons/Surfn/categories/symbolic/applications-help.svg` (new, completeness)
 
 ## 2026.06.21 — Surfn rebuilt from the Surfing work (context-first layout)
 
