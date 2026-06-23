@@ -2,6 +2,8 @@
 
 ## 2026.06.23 — White `?` for the Kickoff Help category
 
+**Install docs:** the README install section now lists the meta packages (top-level `*-icons-meta`, plus the group meta where applicable) alongside the per-variant `*-icons-git` package — replacing the outdated single `pacman -S` line.
+
 ### What Changed
 
 The **Help** category in the Plasma Kickoff menu showed a gray `?` that clashed

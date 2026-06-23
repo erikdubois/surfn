@@ -22,7 +22,11 @@ all remaining icons from here, so the base `surfn-icons-git` is required by all 
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
-```
+```bash
+# Everything — the whole Surfn collection (base + all variants)
+sudo pacman -S surfn-icons-meta
+
+# Just the base Surfn icon set
 sudo pacman -S surfn-icons-git
 ```
 
@@ -46,7 +50,6 @@ Each variant is its own package and pulls in `surfn-icons-git` automatically:
 | [Surfn Arc](https://github.com/erikdubois/surfn-arc) | `surfn-arc-icons-git` |
 | [Surfn Arc Breeze](https://github.com/erikdubois/surfn-arc-breeze) | `surfn-arc-breeze-icons-git` |
 | [Surfn Arch Blue](https://github.com/erikdubois/surfn-arch-blue) | `surfn-arch-blue-icons-git` |
-| [Surfn Arched](https://github.com/erikdubois/surfn-arched) | `surfn-arched-icons-git` |
 | [Surfn Breeze Arc](https://github.com/erikdubois/surfn-breeze-arc) | `surfn-breeze-arc-icons-git` |
 | [Surfn Breeze Dark](https://github.com/erikdubois/surfn-breeze-dark) | `surfn-breeze-dark-icons-git` |
 | [Surfn Dracul](https://github.com/erikdubois/surfn-dracul) | `surfn-dracul-icons-git` |
