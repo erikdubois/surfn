@@ -1,5 +1,46 @@
 # Changelog
 
+## 2026.06.24 — Settings/System menu categories: restore the colour icons (XFCE)
+
+### What Changed
+
+In the XFCE (Whisker) menu the **Settings** and **System** categories showed the
+wrong art — Settings a teal monitor-with-sliders, System a grey monochrome glyph —
+instead of Surfn's colour icons (blue cog, green magnifier). The artwork was never
+lost; GTK's icon lookup was resolving `preferences-desktop` (Settings) and
+`applications-system` (System) to **duplicate copies** that outrank the intended
+`categories/scalable` versions:
+
+- `apps/scalable/preferences-desktop.svg` (coloured sliders) and
+  `apps/scalable/applications-system.svg` (cyan magnifier) — same name, different
+  art, in a directory listed before `categories/scalable`.
+- `categories/symbolic/applications-system.svg` (grey glyph) — wins the size tie
+  (`Size=16` vs the colour bucket's `Size=48`).
+- Breeze-overlaid `preferences/<size>/preferences-desktop.svg` (teal monitor,
+  `Type=Fixed`) — an exact pixel-size match beats the `Scalable` colour bucket.
+
+Removing those duplicates leaves a single `categories/scalable` winner per name, so
+both categories now show the blue cog and green magnifier.
+
+### Technical Details
+
+- [rearrange.sh](./rearrange.sh): new `prune_shadow_duplicates()` step (in `main()`
+  after `make_hidpi`, before `prune_dangling` so any alias left pointing at a removed
+  file is swept up as a dead link). Deletes the two `apps/scalable` duplicates, the
+  `categories/symbolic/applications-system.svg`, and `preferences/*/preferences-desktop.svg`.
+  Regenerated `usr/share/icons/Surfn` + `index.theme` — pruned 6 duplicates.
+- Fixed in the generator (not `_src`, not a hand-edit) so it survives every rebuild.
+- Verified with a screenless `Gtk.IconTheme` lookup against the regenerated tree:
+  `preferences-desktop` and `applications-system` both resolve to
+  `categories/scalable/`; the other `applications-*` categories are unchanged.
+- Side effect (intended): any launcher using `Icon=preferences-desktop` /
+  `Icon=applications-system` now shows the cog / green magnifier consistently.
+
+### Files Modified
+
+- `rearrange.sh` (new `prune_shadow_duplicates` step)
+- `usr/share/icons/Surfn/**` (regenerated; 6 shadowing duplicates pruned, `index.theme` rebuilt)
+
 ## 2026.06.23 — White `?` for the Kickoff Help category
 
 **Install docs:** the README install section now lists the meta packages (top-level `*-icons-meta`, plus the group meta where applicable) alongside the per-variant `*-icons-git` package — replacing the outdated single `pacman -S` line.
