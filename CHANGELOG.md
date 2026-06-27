@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026.06.27 — Clipboard Manager Settings: full-colour clipboard icon (XFCE clipman)
+
+### What Changed
+
+The **Clipboard Manager Settings** entry in XFCE Settings showed a faint white
+wireframe instead of a real icon. `xfce4-clipman-settings.desktop` looks up
+`Icon=xfce4-clipman-plugin`, and Surfn's `apps/scalable/xfce4-clipman-plugin.svg`
+was a symlink to `klipper.svg` — a monochrome symbolic line-icon
+(`fill:currentColor`, `.ColorScheme-Text` = `#eff0f1`). On the dark theme that
+near-white outline reads as a broken/empty glyph next to the colour icons around it.
+
+Repointed the symlink to `com.github.davidmhewitt.clipped.svg`, Surfn's full-colour
+circular clipboard (teal disc, orange clip, white note), so the settings entry now
+matches the rest of the grid.
+
+### Technical Details
+
+- Changed in both the deployed tree and the `_src` master so a re-deploy keeps the fix:
+  - `usr/share/icons/Surfn/apps/scalable/xfce4-clipman-plugin.svg`
+  - `_src/Surfn/scalable/apps/scalable/xfce4-clipman-plugin.svg`
+- The panel/tray `status/*/clipman.svg` icons are intentionally monochrome and were
+  left untouched — only the apps-context settings icon was wrong.
+
+### Files Modified
+
+- usr/share/icons/Surfn/apps/scalable/xfce4-clipman-plugin.svg (symlink → com.github.davidmhewitt.clipped.svg)
+- _src/Surfn/scalable/apps/scalable/xfce4-clipman-plugin.svg (symlink → com.github.davidmhewitt.clipped.svg)
+
 ## 2026.06.24 — Settings/System menu categories: restore the colour icons (XFCE)
 
 ### What Changed
