@@ -1,5 +1,24 @@
 # Changelog
 
+## 2026.10.01 — Funding footer, up.sh guard, xcursor mimetype icon
+
+### What Changed
+
+- README: added the managed "Help fund Kiro" footer.
+- up.sh: synced with the ecosystem template. It now refuses to commit generated keybindings.html/pdf files, and the commit message can be overridden with `COMMIT_MSG`.
+- `image-x-xcursor.svg` mimetype icon redrawn: the olive document with a cursor arrow became a grey document with text lines.
+
+### Technical Details
+
+- The footer sits between `KIRO-FUNDING-FOOTER:START/END` markers so `cascade-readme-footer.sh` can update it later.
+- The up.sh guard runs `git ls-files` for `*keybindings.html` / `*keybindings.pdf` after `git add` and exits 1 if anything matches.
+
+### Files Modified
+
+- README.md
+- up.sh
+- usr/share/icons/Surfn/mimetypes/scalable/image-x-xcursor.svg
+
 ## 2026.06.27 — Clipboard Manager Settings: full-colour clipboard icon (XFCE clipman)
 
 ### What Changed

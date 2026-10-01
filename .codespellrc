@@ -1,0 +1,3 @@
+[codespell]
+# "**S**uper" in the README name-origin acronym splits into the fragment "uper"
+ignore-words-list = uper

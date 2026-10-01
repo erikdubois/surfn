@@ -128,11 +128,21 @@ git_commit_and_push() {
 
     log_section "Git add / commit / push"
     git -C "${SCRIPT_DIR}" add --all .
+    # GUARD: keybindings.html/pdf are generated on demand by the kiro-keybindings app —
+    # they must NEVER be committed. Abort loudly if any are tracked/staged.
+    local kb_artifacts
+    kb_artifacts="$(git -C "${SCRIPT_DIR}" ls-files -- '*keybindings.html' '*keybindings.pdf')"
+    if [[ -n "${kb_artifacts}" ]]; then
+        log_error "BLOCKED: keybindings.html/pdf must never be committed — kiro-keybindings generates them on demand:"
+        echo "${kb_artifacts}"
+        echo "Fix: git -C \"${SCRIPT_DIR}\" rm --cached <file> ; add to .gitignore ; re-run up.sh"
+        exit 1
+    fi
 
     if [[ -z "$(git -C "${SCRIPT_DIR}" status --porcelain)" ]]; then
         log_info "Nothing to commit — working tree clean"
     else
-        git -C "${SCRIPT_DIR}" commit -m "update" || log_error "Git commit failed"
+        git -C "${SCRIPT_DIR}" commit -m "${COMMIT_MSG:-update}" || log_error "Git commit failed"
     fi
 
     branch="$(git -C "${SCRIPT_DIR}" rev-parse --abbrev-ref HEAD)"
