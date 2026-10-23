@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026.10.23 — Flameshot tray icon visible on dark bars
+
+### What Changed
+
+- The Flameshot icon in the system tray was nearly invisible on dark bars (ohmychadwm). Surfn now ships a white `flameshot-tray` icon.
+
+### Technical Details
+
+- Flameshot asks for `flameshot-tray`. Surfn did not have that name, so Qt fell through the `Inherits=` chain to `breeze/status/22/flameshot-tray.svg`: light Breeze, drawn in `#232629` (near-black).
+- `flameshot-tray.svg` is now a symlink to the existing white panel icon `org.flameshot.Flameshot.svg` (`#dfdfdf`). It was added both in `_src` (so `rearrange.sh` keeps it) and in the built tree. `panel/16@2x` is a symlink to `16`, so it picks the icon up too.
+- Checked by rendering the icon with PyQt6 against the repo tree: lightness went from 38 to 255 at 16, 22 and 24 px.
+
+### Files Modified
+
+- _src/Surfn/16/panel/flameshot-tray.svg (new symlink, local only: _src is gitignored)
+- usr/share/icons/Surfn/panel/16/flameshot-tray.svg (new symlink)
+- CHANGELOG.md
+
 ## 2026.10.01 — Funding footer, up.sh guard, xcursor mimetype icon
 
 ### What Changed
