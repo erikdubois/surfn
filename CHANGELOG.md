@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026.10.30 — One icon for preferences-desktop-theme at every size
+
+### What Changed
+
+- Apps that use `Icon=preferences-desktop-theme` (Kirotux Niri Premium, Ohmychadwm Tweak Tool) showed a Breeze paintbrush in the XFCE menu but a rainbow gauge in Thunar. They now show the rainbow gauge everywhere.
+
+### Technical Details
+
+- Surfn shipped the name twice: `preferences/32/` (Fixed, 32px, Breeze-sourced paintbrush) and `apps/scalable/` (the rainbow). GTK prefers an exact Fixed size match, so 32px requests (the menu) got the paintbrush, while larger sizes (Thunar) fell back to the scalable rainbow.
+- Removed the `preferences/32` copy. `rearrange.sh` (local only) now also drops `preferences/*/preferences-desktop-theme.svg` in `prune_shadow_duplicates`, the same fix already applied to `preferences-desktop`, so a rebuild doesn't bring it back.
+- Checked with a GTK3 `IconTheme` lookup against the repo tree: 16 to 64px all resolve to `apps/scalable/preferences-desktop-theme.svg`.
+
+### Files Modified
+
+- usr/share/icons/Surfn/preferences/32/preferences-desktop-theme.svg (removed)
+- rearrange.sh (local only: gitignored)
+- CHANGELOG.md
+
 ## 2026.10.23 — Flameshot tray icon visible on dark bars
 
 ### What Changed
