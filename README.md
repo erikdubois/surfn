@@ -93,3 +93,15 @@ more — the core always stays free for everyone.
 ## License
 
 [LICENSE](./LICENSE) — Attribution-NonCommercial-ShareAlike 4.0 International.
+
+Parts made by others keep their own licence. [LICENSE-third-party](./LICENSE-third-party) lists every file
+that is identical to another icon theme, by source:
+
+- [Numix](https://github.com/numixproject/numix-icon-theme) and
+  [Numix Circle](https://github.com/numixproject/numix-icon-theme-circle) by the Numix Project: GPL-3.0.
+- [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme): GPL-3.0.
+- [Breeze](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group: LGPL-3.0-or-later.
+- [Paper](https://github.com/snwh/paper-icon-theme) by Sam Hewitt: CC BY-SA 4.0.
+- [elementary](https://github.com/elementary/icons): GPL-3.0 (one icon).
+
+Recoloured or edited icons no longer match a source byte for byte, so the list is a minimum.

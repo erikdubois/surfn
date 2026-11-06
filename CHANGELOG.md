@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.11.06 — Licence notes for the icons made by others
+
+### What Changed
+- The README says which parts keep their own licence: Numix and Numix Circle (GPL-3.0), Papirus (GPL-3.0),
+  Breeze (LGPL-3.0-or-later), Paper (CC BY-SA 4.0) and one elementary icon (GPL-3.0).
+- New `LICENSE-third-party` lists every file by source: 2,415 files.
+
+### Technical Details
+- Found by comparing every real file with the icon themes installed on a Kiro box (byte-identical copies), plus
+  Paper's author's export path inside the SVGs. Recoloured or edited icons no longer match, so the list is a
+  minimum. Generated with Surfn Kiro's `_src/third_party.py`.
+- No icon changed.
+
+### Files Modified
+- `README.md`, `LICENSE-third-party` (new), `CHANGELOG.md`
+
 ## 2026.10.30 — One icon for preferences-desktop-theme at every size
 
 ### What Changed
