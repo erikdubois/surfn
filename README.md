@@ -103,5 +103,9 @@ that is identical to another icon theme, by source:
 - [Breeze](https://invent.kde.org/frameworks/breeze-icons) by the KDE Visual Design Group: LGPL-3.0-or-later.
 - [Paper](https://github.com/snwh/paper-icon-theme) by Sam Hewitt: CC BY-SA 4.0.
 - [elementary](https://github.com/elementary/icons): GPL-3.0 (one icon).
+- [Ultra Flat](https://github.com/Ultra-Flat-Icons/Ultra-Flat-Icons) by Steftrikia: CC BY-NC-SA 4.0.
+- [Flattr](https://github.com/NitruxSA/flattr-icons) by Uri Herrera: CC BY-NC-SA 4.0.
+- [Super Flat Remix](https://github.com/daniruiz/Super-Flat-Remix) by Daniel Ruiz de Alegría: CC BY-NC-SA 4.0.
+- [Flat Remix](https://github.com/daniruiz/flat-remix) by Daniel Ruiz de Alegría: GPL-3.0 (one icon).
 
 Recoloured or edited icons no longer match a source byte for byte, so the list is a minimum.

@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026.11.07 — Credit the icon sets Surfn started from
+
+### What Changed
+- The README and `LICENSE-third-party` now also credit the sets Surfn was first built from: Ultra Flat (424
+  files), Flattr (5) and Super Flat Remix (4), all CC BY-NC-SA 4.0, and one Flat Remix icon (GPL-3.0).
+  `LICENSE-third-party` now lists 2,849 files.
+
+### Technical Details
+- Same byte-identical comparison as yesterday, against copies of Flattr, TonicOS-Ultraflat (Ultra Flat based),
+  Yltra Flat, Super Flat Remix, Oranchelo and Flat Remix. Each file is listed once: Ultra Flat + Flattr matches go
+  to Flattr (the origin), Ultra Flat + Super Flat Remix matches go to Ultra Flat (the older set).
+- Nearly all matches are symbolic icons and mimetype pages that were never recoloured. No icon changed.
+
+### Files Modified
+- `README.md`, `LICENSE-third-party`, `CHANGELOG.md`
+
 ## 2026.11.06 — Licence notes for the icons made by others
 
 ### What Changed
